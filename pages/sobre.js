@@ -1,13 +1,14 @@
-import Link from 'react';
+import Link from 'next/link';
 
-function Home() {
+function Sobre() {
     return (
         <div>
             <h3>Sobre</h3>
-            <Contador />
-            <Link href="/home">
+            <Link href="/">
                 <a>Home</a>
             </Link>
         </div>
     )
 }
+
+export default Sobre
